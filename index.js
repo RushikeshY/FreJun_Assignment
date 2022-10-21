@@ -5,7 +5,7 @@ require("dotenv").config();
 const cors = require("cors");
 
 const ConnectDatabase = require("./Connection");
-const BlogController = require("./BlogContrller");
+const BlogController = require("./BlogController");
 
 const app = express();
 
